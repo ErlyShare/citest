@@ -12,5 +12,5 @@ first_test() ->
 second_test() ->
 	A = 1,
 	B = 0,
-	?assertEqual(true, A == B).
+	?assertEqual(false, A == B).
 	
